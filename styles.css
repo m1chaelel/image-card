@@ -1,5 +1,32 @@
 .card {
-    margin: 66px;
-    background-color: gray;
-    border-radius: 3px;
+    padding: 20px;
+    background-color: #231f20;
+    border-radius: 4px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+h4 {
+    color: #c6cdc9;
+    font-size: .66em;
+    font-family: monospace;
+    font-weight: 300;
+    margin-bottom: 1px;
+    padding-bottom: 0;
+}
+
+p {
+    font-family: open sans;
+    font-size: 1em;
+    color: #bba795;
 }
