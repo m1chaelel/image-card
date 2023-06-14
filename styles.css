@@ -1,13 +1,32 @@
-.card {
+.card-top {
     padding: 20px;
     background-color: #231f20;
     border-radius: 4px;
     width: 350px;
-    height: 450px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 
+.card-bottom {
+    padding: 20px;
+    background-color: #c6cdc9;
+    border-radius: 0px 0px 4px 4px;
+    width: 350px;
+    height: 33px;
+    display: flex;
+    margin-top: -72px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0;
+}
 .top-info {
     display: flex;
     flex-direction: row;
@@ -21,12 +40,18 @@ h4 {
     font-size: .66em;
     font-family: monospace;
     font-weight: 300;
-    margin-bottom: 1px;
-    padding-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     font-family: open sans;
     font-size: 1em;
     color: #bba795;
+    text-align-last: justify;
+}
+
+img {
+    border-radius: 3px;
+    z-index: 9999;
 }
